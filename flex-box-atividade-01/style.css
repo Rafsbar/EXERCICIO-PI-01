@@ -1,0 +1,54 @@
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+.caixa.pai {
+    width: 450px;
+    height: 450px;
+    border: 3px dashed #333;
+    margin-bottom: 25px;
+}
+
+.imagem-layout {
+    position: relative;
+}
+
+.caixa.filho {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cor1 {
+    background-color: #FF5733;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.cor2 {
+    background-color: #33FFBD;
+    position: absolute;
+    bottom: 30px;
+    left: 240px;
+}
+
+.cor3 {
+    background-color: #FFC300;
+    position: absolute;
+    top: 160px;
+    left: 130px;
+}
+
+
+
+h1 {
+    color: #333;
+    text-align: center;
+}
